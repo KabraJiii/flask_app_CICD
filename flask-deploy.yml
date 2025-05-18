@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: cricket-flask-app
   name: cricket-flask-app
@@ -13,7 +12,6 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: cricket-flask-app
     spec:
@@ -22,5 +20,4 @@ spec:
         name: crickflaskapp
         ports:
         - containerPort: 8080
-        resources: {}
-status: {}
+    
