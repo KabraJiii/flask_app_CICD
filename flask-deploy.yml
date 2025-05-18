@@ -6,7 +6,7 @@ metadata:
     app: cricket-flask-app
   name: cricket-flask-app
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: cricket-flask-app
