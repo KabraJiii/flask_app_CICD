@@ -20,5 +20,7 @@ spec:
       containers:
       - image: kabrajii/crickflaskapp:latest
         name: crickflaskapp
+        ports:
+        - containerPort: 8080
         resources: {}
 status: {}
