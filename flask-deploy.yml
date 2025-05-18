@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: cricket-flask-app
+  name: cricket-flask-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cricket-flask-app
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: cricket-flask-app
+    spec:
+      containers:
+      - image: kabrajii/crickflaskapp:latest
+        name: crickflaskapp
+        resources: {}
+status: {}
