@@ -78,7 +78,7 @@ pipeline{
                             
                             cat flask-deploy.yml
                             
-                            cd  /var/lib/jenkins/workspace/newpipeline/flask_app_CICD
+                            cd  /var/lib/jenkins/workspace/CricketAPI-Pipeline/flask_app_CICD
                             
                             cat flask-deploy.yml
 
